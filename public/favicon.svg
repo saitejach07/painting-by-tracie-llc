@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#FF6B6B"></circle>
+
+  <!-- Teal circle (top-left) -->
+  <circle cx="18" cy="18" r="10" fill="#4ECDC4"></circle>
+
+  <!-- Yellow circle (bottom-right) -->
+  <circle cx="46" cy="46" r="8" fill="#FFE66D"></circle>
+
+  <!-- Centered T -->
+  <text x="32" y="36" text-anchor="middle" dominant-baseline="middle" font-size="28" font-weight="700" fill="#FFFFFF" font-family="Arial, sans-serif">
+    T
+  </text>
+</svg>

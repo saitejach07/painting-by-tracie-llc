@@ -12,26 +12,21 @@ import "@fontsource/roboto-mono/700.css"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Painting By Tracie LLC | Professional Painting & Landscaping Services",
+  title: "Painting By Tracie | Professional Painting & Landscaping Services",
   description:
     "Professional residential and commercial painting, landscaping, and yard clean-up services in Arizona. Contact Tracie Pacheco for quality work you can trust.",
   generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/favicon.ico", // ✅ real fallback
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
+        url: "/favicon.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/apple-icon.png", // ✅ must be PNG
   },
 }
 
