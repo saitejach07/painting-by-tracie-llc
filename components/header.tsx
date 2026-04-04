@@ -28,7 +28,7 @@ export function Header() {
               <div className="absolute bottom-1 right-1 w-3 h-3 rounded-full bg-[#FFE66D]" />
               <span className="absolute inset-0 flex items-center justify-center text-white font-bold text-lg">T</span>
             </div>
-            <span className="font-bold text-lg sm:text-xl text-foreground tracking-tight">Painting By Tracie LLC</span>
+            <span className="font-bold text-lg sm:text-xl text-foreground tracking-tight">Painting By Tracie </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -48,9 +48,6 @@ export function Header() {
               <Phone className="w-4 h-4" />
               (928) 295-5215
             </a>
-            <Button asChild className="bg-foreground text-background hover:bg-foreground/90">
-              <Link href="#contact">Get a Quote</Link>
-            </Button>
           </div>
 
           <button

@@ -86,16 +86,15 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4 text-background">Contact</h3>
             <ul className="space-y-3 text-background/60">
-              <li>123 Paint Street</li>
-              <li>Color City, CC 12345</li>
+              <li>Cottonwood, Arizona</li>
               <li>
                 <a href="tel:+15551234567" className="hover:text-background transition-colors">
-                  (555) 123-4567
+                  (928) 295-5215
                 </a>
               </li>
               <li>
                 <a href="mailto:info@traciepainting.com" className="hover:text-background transition-colors">
-                  info@traciepainting.com
+                  traciespaintandscape@gmail.com
                 </a>
               </li>
             </ul>
