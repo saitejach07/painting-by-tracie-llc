@@ -42,19 +42,6 @@ export function Footer() {
               Professional painting services for homes and businesses. 
               Quality craftsmanship you can trust.
             </p>
-            <div className="flex gap-3 mt-6">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 rounded-full flex items-center justify-center transition-transform hover:scale-110"
-                  style={{ backgroundColor: social.color }}
-                  aria-label={social.label}
-                >
-                  <social.icon className="w-5 h-5 text-white" />
-                </a>
-              ))}
-            </div>
           </div>
 
           <div>
@@ -82,37 +69,39 @@ export function Footer() {
               ))}
             </ul>
           </div>
+          
+          <ul className="space-y-3 text-background/60">
+          <h3 className="font-semibold text-lg mb-4 text-background">Contact</h3>
+            <li>
+              <a
+                href="https://www.google.com/maps?q=4539+N+22nd+St+Suite+5777+Phoenix+AZ+85016"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-background transition-colors"
+              >
+                4539 N. 22nd St.<br />
+                Suite 5777<br />
+                Phoenix, AZ 85016
+              </a>
+            </li>
+            <li>
+              <a href="tel:+19282955215" className="hover:text-background transition-colors">
+                (928) 295-5215
+              </a>
+            </li>
 
-          <div>
-            <h3 className="font-semibold text-lg mb-4 text-background">Contact</h3>
-            <ul className="space-y-3 text-background/60">
-              <li>Cottonwood, Arizona</li>
-              <li>
-                <a href="tel:+15551234567" className="hover:text-background transition-colors">
-                  (928) 295-5215
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@traciepainting.com" className="hover:text-background transition-colors">
-                  traciespaintandscape@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
+            <li>
+              <a href="mailto:traciespaintandscape@gmail.com" className="hover:text-background transition-colors">
+                traciespaintandscape@gmail.com
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
             &copy; {new Date().getFullYear()} Tracie Painting. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm">
-            <Link href="#" className="text-background/50 hover:text-background transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-background/50 hover:text-background transition-colors">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

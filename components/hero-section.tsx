@@ -93,7 +93,7 @@ export function HeroSection() {
           <div className="relative lg:pl-8">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/women_painting.png"
+                src="/images/women_painting2.png"
                 alt="House painter in Cottonwood Arizona providing interior and exterior painting services"
                 fill
                 className="object-cover"
